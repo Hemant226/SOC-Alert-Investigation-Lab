@@ -1,0 +1,27 @@
+index=main EventCode=3
+| stats count
+
+
+index=main EventCode=3
+| stats count by Image
+| sort - count
+
+
+index=main EventCode=3
+Image="*tor.exe"
+| sort - _time
+| head 1
+| table _time Computer User Image SourceIp DestinationIp DestinationPort Protocol ProcessId
+
+
+index=main EventCode=1
+Image="*tor.exe"
+| sort - _time
+| head 1
+| table _time Computer User Image ParentImage CommandLine ParentCommandLine ProcessId ParentProcessId
+
+
+index=main (EventCode=1 OR EventCode=3)
+Image="*tor.exe"
+| table _time EventCode Image ProcessId ParentProcessId ParentImage DestinationIp DestinationPort
+| sort _time

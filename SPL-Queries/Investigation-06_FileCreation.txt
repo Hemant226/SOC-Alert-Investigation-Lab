@@ -1,0 +1,4 @@
+index=main EventCode=11
+Image="*tor-browser-windows*.exe"
+| table _time User Image TargetFilename
+| sort -_time
