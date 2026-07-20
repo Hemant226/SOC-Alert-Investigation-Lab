@@ -21,12 +21,12 @@ Lab Environment
 
 Built a Windows-based SOC investigation lab using:
 
-• Windows 11
-• Splunk Enterprise
-• Splunk Universal Forwarder
-• Microsoft Sysmon
-• SwiftOnSecurity Sysmon Configuration
-• Windows Event Logs
+• Windows 11 (Link Lab setup folder)
+• Splunk Enterprise (Link Lab setup folder)
+• Splunk Universal Forwarder (Link Lab setup folder)
+• Microsoft Sysmon (Link Lab setup folder)
+• SwiftOnSecurity Sysmon Configuration (Link Lab setup folder)
+• Windows Event Logs (Link Lab setup folder)
 
 The lab captures Windows telemetry and forwards it to Splunk Enterprise for security monitoring and investigation.
 
