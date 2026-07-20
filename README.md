@@ -17,6 +17,19 @@ Hands-on SOC Analyst lab using Splunk Enterprise, Microsoft Sysmon, and Windows 
 - Threat Hunting
 - Security Event Correlation
 
+Lab Environment
+
+Built a Windows-based SOC investigation lab using:
+
+Windows 11
+Splunk Enterprise
+Splunk Universal Forwarder
+Microsoft Sysmon
+SwiftOnSecurity Sysmon Configuration
+Windows Event Logs
+
+The lab captures Windows telemetry and forwards it to Splunk Enterprise for security monitoring and investigation.
+
 ✔ Investigation 1 – Process Creation Detection using (Sysmon Event ID 1)
 
 • Created SPL detection query
