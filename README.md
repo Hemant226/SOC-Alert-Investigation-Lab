@@ -1,6 +1,22 @@
 # SOC Alert Investigation Lab
 Hands-on SOC Analyst lab using Splunk Enterprise, Microsoft Sysmon, and Windows Event Logs to investigate security events, create SPL detection queries, and document real-world investigations.
 
+## Skills Demonstrated
+
+- Splunk Enterprise
+- Microsoft Sysmon
+- Windows Event Logs
+- Sysmon Event IDs (1, 3, 22)
+- SPL Query Development
+- Process Creation Investigation
+- Parent-Child Process Analysis
+- PowerShell Investigation
+- Windows CMD Investigation
+- DNS Query Monitoring
+- Network Connection Analysis
+- Threat Hunting
+- Security Event Correlation
+
 ✔ Investigation 1 – Process Creation Detection using (Sysmon Event ID 1)
 
 • Created SPL detection query
