@@ -9,7 +9,7 @@ Hands-on SOC Analyst lab using Splunk Enterprise, Microsoft Sysmon, and Windows 
 - Splunk Enterprise
 - Microsoft Sysmon
 - Windows Event Logs
-- Sysmon Event IDs (1, 3, 22)
+- Sysmon Event IDs (1, 3, 11, 13, 22)
 - SPL Query Development
 - Process Creation Investigation
 - Parent-Child Process Analysis
