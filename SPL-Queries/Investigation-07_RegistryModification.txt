@@ -1,6 +1,0 @@
-index=main EventCode=13 Image="*reg.exe" 
-| table _time User Image TargetObject Details ProcessId 
-| sort - _time
-
-index=main EventCode=1 ProcessId=10400 
-| table _time User Image ParentImage CommandLine ProcessId ParentProcessId

@@ -1,4 +1,0 @@
-index=main EventCode=22
-| sort -_time
-| head 5
-| table _time Computer User QueryName QueryResults Image ProcessId

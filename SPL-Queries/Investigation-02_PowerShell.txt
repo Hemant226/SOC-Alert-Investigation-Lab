@@ -1,4 +1,0 @@
-index=main EventCode=1
-CommandLine="*whoami*"
-| sort -_time
-| table _time User Image ParentImage CommandLine
