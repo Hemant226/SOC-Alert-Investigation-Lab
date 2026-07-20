@@ -7,3 +7,11 @@ Hands-on SOC Analyst lab using Splunk Enterprise, Microsoft Sysmon, and Windows 
 • Investigated Notepad process execution
 • Documented parent-child process relationship
 • Added screenshots and investigation report
+
+✔ Investigation 2 – PowerShell Process Investigation using Sysmon Event ID 1
+
+• Investigated PowerShell process execution
+• Detected child process (whoami.exe)
+• Documented parent-child relationship
+• Created SPL detection query
+• Added screenshots and investigation report
