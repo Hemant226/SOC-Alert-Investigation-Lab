@@ -26,12 +26,12 @@ Hands-on SOC Analyst lab using Splunk Enterprise, Microsoft Sysmon, and Windows 
 
 Built a Windows-based SOC investigation lab using:
 
-- Windows 11 ([Lab Setup](Screenshots/01_Lab_Setup))
+- Windows 11 
 - Splunk Enterprise ([SE](https://github.com/Hemant226/SOC-Alert-Investigation-Lab/blob/main/Screenshots/01_Lab_Setup/01_SplunkEnterprise.png))
 - Splunk Universal Forwarder ([SPU](https://github.com/Hemant226/SOC-Alert-Investigation-Lab/blob/main/Screenshots/01_Lab_Setup/03_UniversalForwarder.png))
-- Microsoft Sysmon ([Lab Setup](Screenshots/01_Lab_Setup))
-- SwiftOnSecurity Sysmon Configuration ([Lab Setup](Screenshots/01_Lab_Setup))
-- Windows Event Logs ([Lab Setup](Screenshots/01_Lab_Setup))
+- Microsoft Sysmon ([Lab Setup](https://github.com/Hemant226/SOC-Alert-Investigation-Lab/tree/main/Screenshots/01_Lab_Setup))
+- SwiftOnSecurity Sysmon Configuration ([Lab Setup](https://github.com/Hemant226/SOC-Alert-Investigation-Lab/tree/main/Screenshots/01_Lab_Setup))
+- Windows Event Logs ([Lab Setup](https://github.com/Hemant226/SOC-Alert-Investigation-Lab/tree/main/Screenshots/01_Lab_Setup))
 
 The lab captures Windows telemetry and forwards it to Splunk Enterprise for security monitoring and investigation.
 
