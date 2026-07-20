@@ -15,3 +15,10 @@ Hands-on SOC Analyst lab using Splunk Enterprise, Microsoft Sysmon, and Windows 
 • Documented parent-child relationship
 • Created SPL detection query
 • Added screenshots and investigation report
+
+✔ Investigation 3 – Windows Command Prompt Investigation using Sysmon Event ID 1
+
+• Detected cmd.exe process execution
+• Verified parent-child process relationship (explorer.exe → cmd.exe)
+• Created SPL detection query
+• Added screenshots and investigation report
