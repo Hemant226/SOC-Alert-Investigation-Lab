@@ -1,0 +1,6 @@
+index=main EventCode=1
+Image="*cmd.exe"
+User="WINDOWS11\\Shishya"
+| sort -_time
+| head 1
+| table _time Computer User Image ParentImage CommandLine ParentCommandLine ProcessId ParentProcessId
